@@ -1,6 +1,6 @@
 # 🔌 Restaurar estado al cargar batería
 
-Automatización que ejecuta un atajo cuando la batería alcanza un nivel alto (por ejemplo 80% o 100%).
+Automatización que ejecuta un atajo cuando el iPhone se conecta al cargador.
 
 ---
 
@@ -11,7 +11,7 @@ Este sistema se compone de dos partes:
 1. ⚙️ **Automatización (la crea el usuario)**
 2. 🔗 **Atajo (se proporciona en este repositorio)**
 
-La automatización detecta que la batería está cargada y ejecuta el atajo automáticamente.
+Cuando conectas el cargador, se ejecuta automáticamente el atajo.
 
 ---
 
@@ -26,9 +26,9 @@ La automatización detecta que la batería está cargada y ejecuta el atajo auto
 1. Abre la app **Atajos**
 2. Ve a **Automatización**
 3. Pulsa **Crear automatización personal**
-4. Selecciona **Nivel de batería**
+4. Selecciona **Cargador**
 5. Configura:
-   - Sube de: `80%` o `100%`
+   - 👉 **Está conectado**
 6. Pulsa **Siguiente**
 7. Añade acción:
    - 👉 **Ejecutar atajo**
@@ -42,31 +42,21 @@ La automatización detecta que la batería está cargada y ejecuta el atajo auto
 
 ## ⚙️ ¿Qué hace el atajo?
 
-El atajo `Modo normal` puede incluir acciones como:
+El atajo `Modo normal` puede incluir:
 
-- 🔆 Restaurar brillo automático o alto
+- 🔆 Restaurar brillo
 - 🔔 Desactivar modo No molestar
-- 📶 Reactivar WiFi o datos móviles
+- 📶 Activar WiFi / Bluetooth
 - ⚡ Desactivar modo de bajo consumo
 
 ---
 
 ## 🔁 Relación con otros atajos
 
-Este atajo está pensado para usarse junto con:
+Este atajo complementa:
 
 - 🔋 **Modo ahorro** → cuando batería baja  
-- 🔌 **Modo normal** → cuando batería se recupera  
-
----
-
-## 🚀 Personalización
-
-Puedes adaptar el atajo a tu uso:
-
-- Activar Bluetooth
-- Cambiar modo de concentración
-- Lanzar apps habituales
+- 🔌 **Modo normal** → al cargar el dispositivo  
 
 ---
 
