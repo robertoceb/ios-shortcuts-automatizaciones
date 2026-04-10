@@ -6,7 +6,7 @@ Acceso rápido a la sección de actualizaciones de la App Store.
 
 ## 📲 Instalación
 
-🔗 [Instalar atajo](LINK_AQUI)
+🔗 [Instalar atajo]https://www.icloud.com/shortcuts/12183ffa5e254197b9c3a05606a64796
 
 ---
 
