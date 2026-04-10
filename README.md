@@ -17,20 +17,58 @@ Ajustes → Atajos → Permitir atajos no fiables
 
 ---
 
-## 🚗 Automatizaciones
+## ⚙️ Cómo funcionan las automatizaciones
 
-Estas automatizaciones se ejecutan automáticamente según el contexto del dispositivo.
+Este repositorio incluye:
+
+* 📲 **Atajos** → Se pueden instalar directamente
+* ⚙️ **Automatizaciones** → Debes configurarlas manualmente
+
+---
+
+### ❗ Importante
+
+Apple no permite exportar automatizaciones.
+Por tanto, después de instalar un atajo, debes crear la automatización tú mismo.
+
+---
+
+### 🔧 Ejemplo: Automatización de conducción
+
+Para que el atajo `Inicio de conducción` se ejecute automáticamente:
+
+1. Abre la app **Atajos**
+2. Ve a la pestaña **Automatización**
+3. Pulsa en **Crear automatización personal**
+4. Selecciona **CarPlay**
+5. Elige **Al conectarse**
+6. Añade acción → **Ejecutar atajo**
+7. Selecciona `Inicio de conducción`
+8. (Opcional) Desactiva "Solicitar confirmación"
+
+---
+
+### 💡 Automatizaciones recomendadas
+
+Puedes usar estos triggers con los atajos del repositorio:
+
+* 🚘 Conexión a CarPlay
+* 🔋 Nivel de batería
+* 🔊 Conexión Bluetooth
+* 📍 Ubicación
+
+---
+
+## 🚗 Automatizaciones incluidas
+
+Estas automatizaciones están diseñadas como ejemplo de uso.
+
+---
 
 ### 🚘 Modo conducción (CarPlay)
 
 * **Trigger:** Conexión a CarPlay (cable o inalámbrico)
 * **Acción:** Ejecuta `Inicio de conducción`
-
-💡 Uso típico:
-
-* Abrir navegación
-* Lanzar música
-* Ajustar configuración del dispositivo
 
 ---
 
@@ -39,22 +77,12 @@ Estas automatizaciones se ejecutan automáticamente según el contexto del dispo
 * **Trigger:** Desconexión de CarPlay
 * **Acción:** Ejecuta `Salida Coche`
 
-💡 Uso típico:
-
-* Guardar ubicación del vehículo
-* Resetear configuraciones
-
 ---
 
 ### 🔋 Batería baja
 
 * **Trigger:** Nivel de batería ≤ 30%
 * **Acción:** Ejecuta `Baja Batería`
-
-💡 Uso típico:
-
-* Activar modo ahorro
-* Reducir consumo
 
 ---
 
@@ -63,39 +91,28 @@ Estas automatizaciones se ejecutan automáticamente según el contexto del dispo
 * **Trigger:** Nivel de batería ≥ 80%
 * **Acción:** Ejecuta `Batería Cargada`
 
-💡 Uso típico:
-
-* Notificación de carga completa
-* Ajustes automáticos
-
 ---
 
 ### 🔊 Conexión Bluetooth (configurable)
 
 * **Trigger:** Conexión a dispositivo Bluetooth
-* **Acción:** Abrir app o ejecutar atajo
+* **Acción:** Ejecutar acciones o atajos
 
-⚠️ **Configuración necesaria:**
-Este tipo de automatización depende de un dispositivo concreto.
-
-Pasos para adaptarlo:
-
-1. Editar la automatización
-2. Seleccionar tu dispositivo Bluetooth (auriculares, coche, etc.)
-3. Ajustar las acciones según tu uso
-
-💡 Recomendación:
-Usar CarPlay como trigger principal para conducción cuando sea posible.
+⚠️ Requiere seleccionar manualmente el dispositivo
 
 ---
 
 ## 📂 Atajos incluidos
+
+---
 
 ### 🚗 Conducción
 
 #### 🚘 Inicio de conducción
 
 Prepara el dispositivo al iniciar un trayecto.
+
+💡 Diseñado para ejecutarse automáticamente con CarPlay
 
 🔗 [Instalar atajo](LINK_AQUI)
 
@@ -104,6 +121,8 @@ Prepara el dispositivo al iniciar un trayecto.
 #### 🅿️ Salida Coche
 
 Acciones automáticas al finalizar un trayecto.
+
+💡 Diseñado para ejecutarse al desconectar CarPlay
 
 🔗 [Instalar atajo](LINK_AQUI)
 
@@ -123,6 +142,8 @@ Permite guardar o recuperar la ubicación del vehículo.
 
 Reduce el consumo automáticamente.
 
+💡 Ideal para automatización con nivel de batería
+
 🔗 [Instalar atajo](LINK_AQUI)
 
 ---
@@ -130,6 +151,8 @@ Reduce el consumo automáticamente.
 #### ⚡ Batería Cargada
 
 Acciones al completar la carga.
+
+💡 Pensado para automatización al 80%
 
 🔗 [Instalar atajo](LINK_AQUI)
 
@@ -177,9 +200,9 @@ Duplica un atajo antes de modificarlo.
 
 ## 📸 Ejemplos
 
-*Añade aquí capturas de tus atajos y automatizaciones*
+Añade aquí capturas de tus atajos y automatizaciones:
 
-```
+```id="imgtree"
 images/
 ├── shortcuts.png
 ├── automation.png
