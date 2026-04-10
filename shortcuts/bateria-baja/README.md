@@ -1,80 +1,66 @@
 # 🔋 Modo batería baja automático
 
-Automatización que ejecuta acciones cuando la batería del iPhone baja de un porcentaje definido.
-
----
-
-## ⚠️ Importante
-
-Este sistema **no es un atajo independiente**, sino una **automatización dentro de la app Atajos**.
-
----
-
-## ⚙️ ¿Qué hace?
-
-Cuando la batería baja (por ejemplo al 20%), el iPhone puede:
-
-- 🔅 Reducir el brillo
-- 📶 Desactivar WiFi o datos móviles
-- 🔕 Activar modo No molestar
-- ⚡ Activar modo de bajo consumo
-- 📲 Ejecutar otros atajos
+Automatización que ejecuta un atajo cuando la batería baja de un porcentaje definido.
 
 ---
 
 ## 🧠 Cómo funciona
 
-Se basa en una automatización personal:
+Este sistema se compone de dos partes:
 
-- Evento: **Nivel de batería**
-- Condición: baja de X%
-- Acción: ejecutar una o varias acciones
+1. ⚙️ **Automatización (la crea el usuario)**
+2. 🔗 **Atajo (se proporciona en este repositorio)**
+
+La automatización detecta la batería baja y ejecuta el atajo automáticamente.
 
 ---
 
-## 🛠️ Configuración paso a paso
+## 📲 Instalar atajo
+
+🔗 [Modo ahorro]https://www.icloud.com/shortcuts/b6d32cc723574c659f0b57de6f0e0d57
+
+---
+
+## ⚙️ Configurar automatización
 
 1. Abre la app **Atajos**
-2. Ve a la pestaña **Automatización**
+2. Ve a **Automatización**
 3. Pulsa **Crear automatización personal**
 4. Selecciona **Nivel de batería**
 5. Configura:
-   - Baja de: `20%` (o el valor que quieras)
+   - Baja de: `20%` (o el valor que prefieras)
 6. Pulsa **Siguiente**
-7. Añade las acciones que quieras, por ejemplo:
-
-   - Activar modo de bajo consumo
-   - Ajustar brillo al 30%
-   - Mostrar notificación
-
+7. Añade acción:
+   - 👉 **Ejecutar atajo**
+   - Selecciona: `Baja Bateria`
 8. Pulsa **Siguiente**
 9. Desactiva:
    - ❌ "Solicitar confirmación"
-10. Guarda
+10. Guardar
 
 ---
 
-## 🚀 Ejemplo de configuración recomendada
+## ⚙️ ¿Qué hace el atajo?
 
-Cuando batería < 20%:
+El atajo `Baja Bateria` puede incluir acciones como:
 
 - ⚡ Activar modo de bajo consumo
-- 🔅 Brillo al 30%
+- 🔅 Reducir brillo
 - 🔕 Activar modo No molestar
+- 📶 Desactivar conexiones innecesarias
 
 ---
 
-## 🔗 Opcional: usar un atajo
+## 🚀 Personalización
 
-Puedes hacer que esta automatización ejecute un atajo más complejo:
+Puedes editar el atajo para adaptarlo a tus necesidades:
 
-- Crear un atajo llamado: `Modo ahorro`
-- Añadir todas las acciones dentro
-- Desde la automatización → ejecutar ese atajo
+- Cambiar el porcentaje de brillo
+- Añadir más acciones
+- Ejecutar otros atajos
 
 ---
 
 ## ⚠️ Limitaciones
 
-- Algunas acciones pueden pedir confirmación según iOS
-- No todas las configuraciones se pueden automatizar al 100%
+- Algunas acciones pueden requerir confirmación según iOS
