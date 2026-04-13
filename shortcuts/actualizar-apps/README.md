@@ -1,43 +1,85 @@
 # 🔄 Actualizar apps
 
-Acceso rápido a la sección de actualizaciones de la App Store.
+Abre directamente la sección de actualizaciones de la App Store para revisar y actualizar tus apps rápidamente.
+
+---
+
+## 🧠 ¿Para qué sirve?
+
+Este atajo te permite:
+
+- Acceder rápidamente a las actualizaciones disponibles  
+- Evitar navegar manualmente por la App Store  
+- Integrarlo en otras automatizaciones  
+
+Ideal para mantener tus apps actualizadas con un solo toque.
+
+---
+
+## ⚙️ Requisitos
+
+- 📱 iOS actualizado  
+- 📲 App Atajos  
 
 ---
 
 ## 📲 Instalación
 
-🔗 [Instalar atajo]https://www.icloud.com/shortcuts/12183ffa5e254197b9c3a05606a64796
+1. Descarga el atajo:  
+   🔗 https://www.icloud.com/shortcuts/12183ffa5e254197b9c3a05606a64796  
+
+2. Ábrelo en la app **Atajos**
 
 ---
 
-## ⚙️ ¿Qué hace?
+## ▶️ Uso
 
-- Abre la App Store
-- Muestra las actualizaciones disponibles
+Puedes utilizar este atajo de varias formas:
 
----
+1. Desde la app **Atajos**  
+2. Añadiéndolo a la pantalla de inicio  
+3. Integrándolo dentro de otros atajos  
 
-## 🚀 Uso
-
-Puedes usar este atajo:
-
-- Manualmente desde la app **Atajos**
-- Desde la pantalla de inicio
-- Como parte de otros atajos
+👉 Al ejecutarlo, se abrirá directamente la sección de actualizaciones de la App Store
 
 ---
 
-## ⚙️ Automatización (opcional)
+## 🤖 Automatización (opcional)
 
-Puedes ejecutarlo automáticamente en situaciones como:
+Puedes automatizar su ejecución en situaciones como:
 
-- 📅 A una hora concreta
-- 🔋 Cuando el dispositivo está cargando
-- 📶 Al conectarse a WiFi
+1. 📅 A una hora concreta  
+2. 🔋 Cuando el dispositivo está cargando  
+3. 📶 Al conectarse a una red WiFi  
+
+Configuración:
+
+1. Ir a **Atajos → Automatización**  
+2. Crear nueva automatización  
+3. Seleccionar el trigger deseado  
+4. Añadir acción:
+   - Ejecutar el atajo **Actualizar apps**  
 
 ---
 
-## ⚠️ Limitaciones
+## 📂 ¿Qué hace internamente?
 
-- No permite actualizar apps automáticamente
-- Requiere interacción del usuario en la App Store
+El atajo:
+
+1. Abre la App Store  
+2. Redirige a la sección de actualizaciones  
+3. Muestra las apps pendientes de actualizar  
+
+---
+
+## ⚠️ Problemas comunes
+
+- ❌ No abre correctamente → revisa que la App Store esté disponible  
+- ❌ No ves actualizaciones → puede que no haya apps pendientes  
+
+---
+
+## 💡 Notas
+
+- iOS no permite actualizar apps automáticamente mediante atajos  
+- Este atajo sirve como acceso rápido, no como automatización completa  
