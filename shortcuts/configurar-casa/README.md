@@ -10,32 +10,63 @@ Guarda tu ubicación actual como referencia para otros atajos (por ejemplo, dete
 
 Este atajo guarda tu ubicación en un archivo local que luego utilizan otros atajos para:
 
-- Calcular distancia respecto a tu casa
-- Evitar ejecuciones innecesarias cerca de casa
-- Mejorar automatizaciones basadas en ubicación
+- Calcular distancia respecto a tu casa  
+- Evitar ejecuciones innecesarias cerca de casa  
+- Mejorar automatizaciones basadas en ubicación  
 
 ---
 
 ## 📲 Instalación
 
-1. Descarga el atajo desde el siguiente enlace:
-   - 🔗 [Configurar casa]https://www.icloud.com/shortcuts/802d9b9f8e26481e851de3cf2aef1fdd
+1. Descarga el atajo desde aquí:  
+   🔗 https://www.icloud.com/shortcuts/802d9b9f8e26481e851de3cf2aef1fdd  
 
 2. Ábrelo en la app **Atajos**
 
 ---
 
-## ▶️ Uso
+## ⚠️ Configuración IMPORTANTE (primera ejecución)
 
-1. Sitúate físicamente en tu casa  
-2. Ejecuta el atajo **Configurar casa**  
-3. Se guardará automáticamente tu ubicación  
+La primera vez que ejecutes el atajo, iOS te pedirá guardar un archivo.
+
+👉 **Este paso es obligatorio para que el resto de automatizaciones funcionen correctamente**
+
+### 🔴 Comportamiento por defecto de iOS
+
+- iOS asignará automáticamente como nombre del archivo tu dirección  
+  (por ejemplo: `Calle Mayor 10`, `Av. de España 25`, etc.)
+
+❗ **Ese nombre NO es válido para el sistema**
 
 ---
 
-## 📂 ¿Qué hace internamente?
+## ▶️ Pasos detallados (OBLIGATORIO)
 
-El atajo:
+1. Sitúate físicamente en tu casa  
+2. Ejecuta el atajo **Configurar casa**  
+3. Cuando aparezca el selector de guardado:
+   - Selecciona **iCloud Drive**
+   - Entra en la carpeta **Shortcuts**
+4. Verás que el archivo tiene como nombre tu dirección  
+5. ⚠️ **Cámbialo manualmente por casa**
+6. 6. Guarda el archivo  
 
-1. Obtiene tu ubicación actual  
-2. Guarda esa ubicación en un archivo en:
+---
+
+## 📂 Ubicación correcta del archivo
+
+El archivo debe quedar exactamente en:
+
+---
+
+1. Abre la app **Archivos**
+2. Ve a:
+   - iCloud Drive → Shortcuts
+3. Comprueba que existe un archivo llamado: casa
+4. Si es asi todo OK
+
+## 💡 Recomendación
+
+Si cambias de casa o quieres actualizar la ubicación:
+
+👉 Ejecuta de nuevo el atajo y sobrescribe el archivo existente
