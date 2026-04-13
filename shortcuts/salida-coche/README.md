@@ -1,114 +1,119 @@
 # 🚗 Salida coche
 
-Automatización inteligente que detecta cuándo sales del coche y guarda automáticamente la ubicación de aparcamiento, solo si estás lejos de casa.
+Automatización inteligente que detecta cuándo sales del coche y guarda automáticamente la ubicación de aparcamiento solo si estás lejos de casa.
 
 ---
 
-## 🧠 Cómo funciona
+## 🧠 ¿Para qué sirve?
 
-Este sistema combina:
+Este atajo te permite:
 
-1. ⚙️ Automatización (CarPlay o Bluetooth)
-2. 🔗 Atajo principal (`Salida coche`)
-3. 🔗 Atajo auxiliar (`Dónde he aparcado`)
-4. 🏠 Configuración previa (`Configurar casa`)
+- Guardar automáticamente dónde has aparcado  
+- Evitar guardar ubicaciones innecesarias en casa  
+- Automatizar completamente el proceso sin intervención  
+
+👉 Es la versión inteligente del atajo **Dónde he aparcado**
 
 ---
 
-## ⚠️ Requisitos
+## ⚙️ Requisitos
 
-Antes de usar este atajo debes ejecutar:
+- 📱 iOS actualizado  
+- 📲 App Atajos  
+- 🔗 Dependencias (OBLIGATORIO):
+  - 🏠 Configurar casa  
+  - 📍 Dónde he aparcado  
 
-👉 🏠 [Configurar casa](../configurar-casa/README.md)
-
-Esto guarda tu ubicación para poder calcular distancias.
+👉 Debes haber configurado previamente tu ubicación de casa.
 
 ---
 
 ## 📲 Instalación
 
-Instala los siguientes atajos:
+1. Descarga los atajos necesarios:  
 
-- 🔗 [Salida coche]https://www.icloud.com/shortcuts/f891d200ea1645fcb1d631d1a5df6f27
-- 🔗 [Dónde he aparcado]https://www.icloud.com/shortcuts/3099be7701d8499cb034e1cd9902ec14
+   - 🔗 https://www.icloud.com/shortcuts/f891d200ea1645fcb1d631d1a5df6f27  
+   - 🔗 https://www.icloud.com/shortcuts/3099be7701d8499cb034e1cd9902ec14  
+
+2. Ábrelos en la app **Atajos**
 
 ---
 
-## ⚙️ Configurar automatización
+## ▶️ Uso
 
-1. Abre **Atajos → Automatización**
-2. Pulsa **Crear automatización personal**
+Este sistema no se ejecuta manualmente.
+
+Funciona automáticamente cuando se configura su automatización.
+
+---
+
+## 🤖 Automatización
+
+Configura una automatización en iOS:
+
+1. Abre **Atajos → Automatización**  
+2. Pulsa **Crear automatización personal**  
 3. Selecciona:
-   - 🚗 **CarPlay → Se desconecta**
-   *(o Bluetooth del coche)*
+   - 🚗 **CarPlay → Se desconecta**  
+   *(o Bluetooth del coche)*  
 4. Añade acción:
-   - 👉 **Ejecutar atajo**
-   - Selecciona: `Salida coche`
+   - Ejecutar atajo  
+   - Selecciona: **Salida coche**  
 5. Desactiva:
-   - ❌ Solicitar confirmación
-6. Guardar
+   - ❌ "Solicitar confirmación"  
+6. Guardar  
 
 ---
 
-## ⚙️ ¿Qué hace el atajo?
+## 📂 ¿Qué hace internamente?
 
-1. 📍 Obtiene tu ubicación actual  
-2. 🏠 Obtiene la ubicación de casa (archivo `casa`)  
-3. 📏 Calcula la distancia entre ambas  
-4. 🔎 Si la distancia es mayor que un umbral (ej: 0.3 km):
-   - Ejecuta `Dónde he aparcado`  
+El atajo:
+
+1. Detecta que has salido del coche  
+2. Obtiene tu ubicación actual  
+3. Lee la ubicación de casa (archivo `casa`)  
+4. Calcula la distancia entre ambas  
+5. Evalúa la distancia:
+   - Si estás lejos de casa → ejecuta **Dónde he aparcado**  
+   - Si estás cerca → no hace nada  
 
 ---
 
 ## 📏 Lógica de distancia
 
-El atajo solo se ejecuta si estás lo suficientemente lejos de casa:
+El atajo solo actúa si estás lo suficientemente lejos de casa.
 
-- Valor recomendado: `0.3 km` (300 metros)
-- Puedes ajustarlo según tus necesidades
+- Valor recomendado: `0.3 km` (300 metros)  
+
+👉 Puedes ajustarlo según tus necesidades.
 
 Esto evita guardar ubicaciones cuando estás en casa.
 
 ---
 
-## 🚀 Ventajas
+## ⚠️ Problemas comunes
 
-- Totalmente automático  
-- Evita registros innecesarios  
-- Funciona sin intervención  
+- ❌ No se ejecuta → revisa la automatización  
+- ❌ No guarda ubicación → revisa permisos de ubicación  
+- ❌ No funciona “casa” → ejecuta de nuevo Configurar casa  
+- ❌ Archivo `casa` incorrecto → revisa nombre y ubicación  
+
+---
+
+## 💡 Notas
+
+- Funciona mejor con CarPlay  
+- Compatible con Bluetooth del coche  
 - Reutiliza lógica de otros atajos  
+- Puedes añadir notificaciones o acciones extra  
 
 ---
 
-## 🔐 Privacidad
+## 🔁 Relación con otros atajos
 
-- No incluye direcciones personales  
-- Usa un archivo local (`casa`)  
-- No comparte datos fuera del dispositivo  
+Este atajo depende de:
 
----
+- 🏠 **Configurar casa**  
+- 📍 **Dónde he aparcado**  
 
-## ⚠️ Errores comunes
-
-- ❌ No haber ejecutado `Configurar casa`
-- ❌ Archivo `casa` inexistente o mal ubicado
-- ❌ Automatización sin configurar
-- ❌ Permisos de ubicación desactivados
-
----
-
-## 💡 Personalización
-
-Puedes ampliar este atajo:
-
-- Cambiar distancia mínima  
-- Añadir notificaciones  
-- Ejecutar otros atajos  
-- Integrarlo con modos de concentración  
-
----
-
-## 🔗 Relacionado
-
-- 🏠 Configurar casa  
-- 📍 Dónde he aparcado  
+👉 Forma parte del sistema de automatización de coche
