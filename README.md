@@ -7,7 +7,8 @@
 ![Privacidad](https://img.shields.io/badge/Privacidad-100%25%20Local-blueviolet)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
 
-Colección de atajos y automatizaciones para iPhone diseñadas para mejorar tu día a día de forma inteligente, automática y sin apps externas.
+Automatiza tu iPhone de forma inteligente y sin apps externas.  
+Un sistema modular de atajos diseñado para ahorrar tiempo, reducir tareas repetitivas y mejorar tu experiencia diaria.
 
 ---
 
