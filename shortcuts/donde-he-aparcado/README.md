@@ -1,63 +1,103 @@
-# 🚗 Dónde he aparcado
+# 📍 Dónde he aparcado
 
-Guarda automáticamente la ubicación donde has aparcado el coche al desconectar CarPlay.
-
----
-
-## 🧠 Cómo funciona
-
-Este sistema se compone de dos partes:
-
-1. ⚙️ **Automatización (la crea el usuario)**
-2. 🔗 **Atajo (se proporciona en este repositorio)**
-
-Cuando se desconecta CarPlay, el iPhone ejecuta el atajo automáticamente.
+Guarda automáticamente la ubicación de tu coche al desconectar CarPlay para que puedas consultarla después fácilmente.
 
 ---
 
-## 📲 Instalar atajo
+## 🧠 ¿Para qué sirve?
 
-🔗 [Dónde he aparcado]https://www.icloud.com/shortcuts/3099be7701d8499cb034e1cd9902ec14
+Este atajo te permite:
 
----
+- No olvidar dónde has aparcado  
+- Guardar la ubicación automáticamente  
+- Consultarla rápidamente cuando lo necesites  
 
-## ⚙️ Configurar automatización
-
-1. Abre la app **Atajos**
-2. Ve a **Automatización**
-3. Pulsa **Crear automatización personal**
-4. Selecciona **CarPlay**
-5. Configura:
-   - 👉 **Se desconecta**
-   - Desmarca 👉 **Se conecta**
-6. Pulsa **Siguiente**
-7. Añade acción:
-   - 👉 **Ejecutar atajo**
-   - Selecciona: `Dónde he aparcado`
-8. Pulsa **Siguiente**
-9. Desactiva:
-   - ❌ "Solicitar confirmación"
-10. Guardar
+Ideal para uso diario en ciudad o viajes.
 
 ---
 
-## ⚙️ ¿Qué hace el atajo?
+## ⚙️ Requisitos
 
-El atajo realiza:
+- 📱 iOS actualizado  
+- 📲 App Atajos  
+- 🔗 Dependencias (recomendado):
+  - 🏠 Configurar casa  
 
-1. 📍 Obtener ubicación actual  
-2. 🚗 Guardar ubicación como coche aparcado  
-3. 🗺️ Generar enlace a Mapas  
-4. 📝 Crear nota con:
-   - Fecha actual  
-   - URL de Mapas  
+---
+
+## 📲 Instalación
+
+1. Descarga el atajo:  
+   🔗 https://www.icloud.com/shortcuts/3099be7701d8499cb034e1cd9902ec14  
+
+2. Ábrelo en la app **Atajos**
+
+---
+
+## ▶️ Uso
+
+Este sistema no se ejecuta manualmente.
+
+Funciona automáticamente cuando se configura su automatización.
+
+---
+
+## 🤖 Automatización
+
+Configura una automatización en iOS:
+
+1. Abre **Atajos → Automatización**  
+2. Pulsa **Crear automatización personal**  
+3. Selecciona **CarPlay**  
+4. Configura:
+   - 👉 **Se desconecta**  
+   - ❌ Desmarca **Se conecta**  
+5. Pulsa **Siguiente**  
+6. Añade acción:
+   - Ejecutar atajo  
+   - Selecciona: **Dónde he aparcado**  
+7. Pulsa **Siguiente**  
+8. Desactiva:
+   - ❌ "Solicitar confirmación"  
+9. Guardar  
+
+---
+
+## 📂 ¿Qué hace internamente?
+
+El atajo:
+
+1. Detecta que has salido del coche  
+2. Obtiene tu ubicación actual  
+3. Genera un enlace a Mapas  
+4. Guarda la información en una nota con:
+   - Fecha  
    - Ubicación  
+   - Enlace directo  
 
 ---
 
 ## 📂 Resultado
 
 Se crea una nota en la carpeta:
-
-```bash
 Parking
+
+
+Con la información necesaria para localizar tu coche fácilmente.
+
+---
+
+## ⚠️ Problemas comunes
+
+- ❌ No se ejecuta → revisa la automatización  
+- ❌ No guarda ubicación → revisa permisos de ubicación  
+- ❌ No se crea la nota → revisa permisos de la app Notas  
+- ❌ Ubicación incorrecta → puede fallar si no hay buena señal GPS  
+
+---
+
+## 💡 Notas
+
+- Funciona mejor con CarPlay  
+- Puede adaptarse a Bluetooth del coche  
+- Puedes modificar el formato de la nota según tus necesidades  
