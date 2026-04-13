@@ -1,64 +1,84 @@
 # 🚗 Inicio de conducción
 
-Automatización inteligente que detecta cuándo te conectas al coche y configura automáticamente el iPhone antes de iniciar la marcha, incluyendo asistencia por voz y navegación.
+Automatización inteligente que detecta cuándo te conectas al coche y configura el iPhone automáticamente antes de iniciar la marcha.
+
+Incluye asistencia por voz y navegación automática.
 
 ---
 
-## 🧠 Cómo funciona
+## 🧠 ¿Para qué sirve?
 
-Este sistema combina:
+Este atajo te permite:
 
-1. ⚙️ Automatización (CarPlay o Bluetooth)
-2. 🔗 Atajo principal (`Inicio de conducción`)
-3. 🏠 Configuración previa (`Configurar casa`)
+- Preparar el iPhone automáticamente al entrar en el coche  
+- Recibir asistencia por voz tipo asistente  
+- Iniciar navegación sin tocar el móvil  
+- Integrar tu dirección de casa para uso rápido  
+
+Ideal para uso diario en desplazamientos.
 
 ---
 
-## ⚠️ Requisitos
+## ⚙️ Requisitos
 
-Antes de usar este atajo debes ejecutar:
+- 📱 iOS actualizado  
+- 📲 App Atajos  
+- 🔗 Dependencias (OBLIGATORIO):
+  - 🏠 Configurar casa  
 
-👉 🏠 [Configurar casa](../configurar-casa/README.md)
-
-Esto guarda tu dirección para poder usarla al decir “casa”.
+👉 Debes haber configurado previamente tu ubicación de casa.
 
 ---
 
 ## 📲 Instalación
 
-Instala el siguiente atajo:
+1. Descarga el atajo:  
+   🔗 https://www.icloud.com/shortcuts/490eab408844452aa0d8a0cc1d05c27b  
 
-- 🔗 [Inicio de conducción]https://www.icloud.com/shortcuts/490eab408844452aa0d8a0cc1d05c27b
+2. Ábrelo en la app **Atajos**
 
 ---
 
-## ⚙️ Configurar automatización
+## ▶️ Uso
 
-1. Abre **Atajos → Automatización**
-2. Pulsa **Crear automatización personal**
+Este sistema no se ejecuta manualmente.
+
+Funciona automáticamente al conectarte al coche.
+
+---
+
+## 🤖 Automatización
+
+Configura una automatización en iOS:
+
+1. Abre **Atajos → Automatización**  
+2. Pulsa **Crear automatización personal**  
 3. Selecciona:
-   - 🚗 **CarPlay → Se conecta**
-   *(o Bluetooth del coche)*
+   - 🚗 **CarPlay → Se conecta**  
+   *(o Bluetooth del coche)*  
 4. Añade acción:
-   - 👉 **Ejecutar atajo**
-   - Selecciona: `Inicio de conducción`
+   - Ejecutar atajo  
+   - Selecciona: **Inicio de conducción**  
 5. Desactiva:
-   - ❌ Solicitar confirmación
-6. Guardar
+   - ❌ "Solicitar confirmación"  
+6. Guardar  
 
 ---
 
-## ⚙️ ¿Qué hace el atajo?
+## 📂 ¿Qué hace internamente?
 
-1. 🔋 Comprueba el nivel de batería  
-2. 🤖 Genera un mensaje por voz tipo asistente (ChatGPT)  
-3. 🔊 Reproduce el mensaje  
-4. 🎤 Solicita destino por voz  
-5. 🧠 Interpreta la respuesta:
-   - Si dices **“no”** → cancela  
-   - Si dices **“casa”** → usa tu dirección guardada  
-   - Si dices otro destino → lo procesa automáticamente  
-6. 🗺️ Abre Google Maps con la ruta  
+El atajo:
+
+1. Detecta que te conectas al coche  
+2. Comprueba el nivel de batería  
+3. Genera un mensaje por voz tipo asistente  
+4. Reproduce el mensaje  
+5. Solicita un destino por voz  
+6. Interpreta la respuesta:
+   - “no” → cancela  
+   - “casa” → usa tu ubicación guardada  
+   - otro destino → lo procesa automáticamente  
+7. Abre Google Maps con la ruta  
 
 ---
 
@@ -66,4 +86,26 @@ Instala el siguiente atajo:
 
 Cuando dices “llévame a casa”:
 
-- El atajo lee el archivo:
+- El atajo lee el archivo configurado previamente  
+- Utiliza esa ubicación como destino  
+- Inicia la navegación automáticamente  
+
+👉 Esto depende directamente del atajo **Configurar casa**
+
+---
+
+## ⚠️ Problemas comunes
+
+- ❌ No reconoce la voz → revisa permisos de micrófono  
+- ❌ No abre navegación → revisa Google Maps instalado  
+- ❌ “Casa” no funciona → ejecuta de nuevo Configurar casa  
+- ❌ No se ejecuta → revisa la automatización  
+
+---
+
+## 💡 Notas
+
+- Funciona mejor con CarPlay  
+- Compatible con Bluetooth del coche  
+- Puedes adaptar el mensaje de voz a tu gusto  
+- Puedes cambiar la app de navegación si lo deseas  
