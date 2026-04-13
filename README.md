@@ -4,6 +4,27 @@ Colección de atajos y automatizaciones para iPhone orientadas a mejorar la expe
 
 ---
 
+## ⚠️ Requisitos del sistema
+
+Estos atajos han sido diseñados y probados en:
+
+- 📱 iOS 26.4.1  
+- 🔁 App Atajos actualizada  
+
+👉 **Se recomienda encarecidamente tener el sistema actualizado a esta versión o superior**
+
+---
+
+## 🔄 Antes de empezar (IMPORTANTE)
+
+Antes de instalar cualquier atajo:
+
+1. Ve a **Ajustes → General → Actualización de software**  
+2. Asegúrate de tener instalada la última versión de iOS disponible  
+3. Comprueba que la app **Atajos** está actualizada desde la App Store  
+
+---
+
 ## 🧭 Cómo usar este repositorio
 
 1. 📥 Descarga el atajo que te interese  
@@ -103,6 +124,18 @@ Ejemplo:
 
 3. Configurar automatización:
    - CarPlay → desconectar  
+
+---
+
+## ⚠️ Compatibilidad
+
+- Algunas automatizaciones pueden **no funcionar correctamente en versiones anteriores de iOS**
+- Especialmente aquellas relacionadas con:
+  - 📍 Ubicación  
+  - 🚗 CarPlay  
+  - 🔋 Automatizaciones de batería  
+
+👉 Si algo no funciona, lo primero es verificar la versión de iOS
 
 ---
 
