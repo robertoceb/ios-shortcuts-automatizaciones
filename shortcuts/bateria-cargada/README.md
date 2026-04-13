@@ -1,53 +1,93 @@
 # 🔌 Restaurar estado al cargar batería
 
-Automatización que ejecuta un atajo cuando el iPhone se conecta al cargador.
+Ejecuta automáticamente un atajo cuando conectas el iPhone al cargador para restaurar el estado normal del dispositivo.
 
 ---
 
-## 🧠 Cómo funciona
+## 🧠 ¿Para qué sirve?
 
-Este sistema se compone de dos partes:
+Este sistema te permite:
 
-1. ⚙️ **Automatización (la crea el usuario)**
-2. 🔗 **Atajo (se proporciona en este repositorio)**
+- Recuperar configuraciones normales tras el modo ahorro  
+- Automatizar ajustes al empezar a cargar  
+- Mejorar la experiencia sin intervención manual  
 
-Cuando conectas el cargador, se ejecuta automáticamente el atajo.
-
----
-
-## 📲 Instalar atajo
-
-🔗 [Modo normal]https://www.icloud.com/shortcuts/bd0d857ff96744479659f2056dd75532
+Ideal para complementar automatizaciones de batería baja.
 
 ---
 
-## ⚙️ Configurar automatización
+## ⚙️ Requisitos
 
-1. Abre la app **Atajos**
-2. Ve a **Automatización**
-3. Pulsa **Crear automatización personal**
-4. Selecciona **Cargador**
-5. Configura:
-   - 👉 **Está conectado**
-6. Pulsa **Siguiente**
-7. Añade acción:
-   - 👉 **Ejecutar atajo**
-   - Selecciona: `Modo normal`
-8. Pulsa **Siguiente**
-9. Desactiva:
-   - ❌ "Solicitar confirmación"
-10. Guardar
+- 📱 iOS actualizado  
+- 📲 App Atajos  
+- 🔗 Dependencias (recomendado):
+  - 🔋 Modo batería baja automático  
 
 ---
 
-## ⚙️ ¿Qué hace el atajo?
+## 📲 Instalación
 
-El atajo `Modo normal` puede incluir:
+1. Descarga el atajo:  
+   🔗 https://www.icloud.com/shortcuts/bd0d857ff96744479659f2056dd75532  
 
-- 🔆 Restaurar brillo
-- 🔔 Desactivar modo No molestar
-- 📶 Activar WiFi / Bluetooth
-- ⚡ Desactivar modo de bajo consumo
+2. Ábrelo en la app **Atajos**
+
+---
+
+## ▶️ Uso
+
+Este sistema no se ejecuta manualmente.
+
+Funciona automáticamente cuando conectas el dispositivo al cargador.
+
+---
+
+## 🤖 Automatización
+
+Configura una automatización en iOS:
+
+1. Abre **Atajos → Automatización**  
+2. Pulsa **Crear automatización personal**  
+3. Selecciona **Cargador**  
+4. Configura:
+   - 👉 **Está conectado**  
+5. Pulsa **Siguiente**  
+6. Añade acción:
+   - Ejecutar atajo  
+   - Selecciona: **Modo normal**  
+7. Pulsa **Siguiente**  
+8. Desactiva:
+   - ❌ "Solicitar confirmación"  
+9. Guardar  
+
+---
+
+## 📂 ¿Qué hace internamente?
+
+El sistema funciona en dos partes:
+
+1. iOS detecta que el dispositivo se conecta al cargador  
+2. Se ejecuta el atajo automáticamente  
+3. El atajo restaura configuraciones normales  
+
+---
+
+## ⚠️ Problemas comunes
+
+- ❌ No se ejecuta → revisa la automatización  
+- ❌ Pide confirmación → asegúrate de desactivarla  
+- ❌ Algunas acciones no se aplican → puede depender de restricciones de iOS  
+
+---
+
+## 💡 Notas
+
+- Puedes personalizar el atajo según tus necesidades  
+- Ejemplos de acciones:
+  - 🔆 Restaurar brillo  
+  - 🔔 Desactivar modo No molestar  
+  - 📶 Activar WiFi / Bluetooth  
+  - ⚡ Desactivar modo de bajo consumo  
 
 ---
 
@@ -55,11 +95,7 @@ El atajo `Modo normal` puede incluir:
 
 Este atajo complementa:
 
-- 🔋 **Modo ahorro** → cuando batería baja  
-- 🔌 **Modo normal** → al cargar el dispositivo  
+- 🔋 **Modo batería baja automático**  
+- 🔌 **Restaurar estado al cargar batería**  
 
----
-
-## ⚠️ Limitaciones
-
-- Algunas acciones pueden requerir confirmación según iOS
+👉 Juntos permiten automatizar completamente el comportamiento de la batería
