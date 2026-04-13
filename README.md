@@ -1,6 +1,29 @@
 # 🚀 iOS Shortcuts & Automatizaciones
 
-Colección de atajos y automatizaciones para iPhone orientadas a mejorar la experiencia diaria.
+Colección de atajos y automatizaciones para iPhone diseñadas para mejorar tu día a día de forma inteligente, automática y sin apps externas.
+
+---
+
+## 🔥 ¿Qué te aporta este repo?
+
+- ⚡ Automatiza tareas sin tocar el móvil  
+- 🔁 Reduce acciones repetitivas  
+- 🧠 Sistema modular reutilizable  
+- 🔐 100% local y privado (sin servicios externos)  
+- 🚀 Fácil de instalar y ampliar  
+
+---
+
+## ⚡ Prueba rápida (1 minuto)
+
+¿Quieres ver cómo funciona sin complicarte?
+
+👉 Empieza con este atajo:
+
+📍 **Dónde he aparcado**  
+Guarda automáticamente la ubicación de tu coche al bajarte.
+
+👉 📂 [Ver guía](./shortcuts/donde-he-aparcado/README.md)
 
 ---
 
@@ -11,41 +34,56 @@ Estos atajos han sido diseñados y probados en:
 - 📱 iOS 26.4.1  
 - 🔁 App Atajos actualizada  
 
-👉 **Se recomienda encarecidamente tener el sistema actualizado a esta versión o superior**
+👉 Se recomienda tener el sistema actualizado a esta versión o superior
 
 ---
 
 ## 🔄 Antes de empezar (IMPORTANTE)
 
-Antes de instalar cualquier atajo:
+Antes de usar cualquier automatización:
 
 1. Ve a **Ajustes → General → Actualización de software**  
-2. Asegúrate de tener instalada la última versión de iOS disponible  
-3. Comprueba que la app **Atajos** está actualizada desde la App Store  
+2. Asegúrate de tener la última versión de iOS  
+3. Comprueba que la app **Atajos** está actualizada  
 
 ---
 
-## 🧭 Cómo usar este repositorio
+## 🧱 Orden recomendado (OBLIGATORIO)
 
-1. 📥 Descarga el atajo que te interese  
-2. ⚙️ Sigue su guía específica  
-3. ▶️ Ejecútalo o configúralo  
-4. 🔁 (Opcional) Añade automatización  
+Para que todo funcione correctamente, sigue este orden:
+
+1. 🏠 **Configurar casa**  
+2. 🚗 Automatizaciones de coche  
+3. 🔋 Automatizaciones de batería  
+4. ⚙️ Utilidades  
 
 ---
 
-## ⚠️ Configuración inicial (OBLIGATORIA)
-
-Antes de usar algunos atajos, debes configurar tu ubicación de casa:
+## 🏠 Configuración inicial
 
 ### 🏠 Configurar casa
-Guarda tu ubicación como referencia para otras automatizaciones.
+
+Este paso es obligatorio.
+
+Guarda tu ubicación como referencia para el resto del sistema.
 
 👉 📂 [Ver guía](./shortcuts/configurar-casa/README.md)
 
 ---
 
-## 📦 Atajos disponibles
+## 📦 Sistema de automatización
+
+### 🚗 Coche
+
+- 🚗 **Salida coche**  
+  Detecta cuando sales del coche y ejecuta acciones inteligentes  
+  👉 📂 [Ver guía](./shortcuts/salida-coche/README.md)
+
+- 📍 **Dónde he aparcado**  
+  Guarda automáticamente la ubicación de aparcamiento  
+  👉 📂 [Ver guía](./shortcuts/donde-he-aparcado/README.md)
+
+---
 
 ### 🔋 Batería
 
@@ -56,18 +94,6 @@ Guarda tu ubicación como referencia para otras automatizaciones.
 - 🔌 **Batería cargada**  
   Se ejecuta al superar un nivel de carga  
   👉 📂 [Ver guía](./shortcuts/bateria-cargada/README.md)
-
----
-
-### 🚗 Coche
-
-- 🚗 **Salida coche**  
-  Detecta cuando sales del coche y ejecuta acciones inteligentes  
-  👉 📂 [Ver guía](./shortcuts/salida-coche/README.md)
-
-- 📍 **Dónde he aparcado**  
-  Guarda la ubicación de aparcamiento automáticamente  
-  👉 📂 [Ver guía](./shortcuts/donde-he-aparcado/README.md)
 
 ---
 
@@ -83,25 +109,39 @@ Guarda tu ubicación como referencia para otras automatizaciones.
 
 ---
 
-## 🔗 Cómo funcionan las automatizaciones
+## 🧠 Cómo funciona el sistema
 
-Muchos atajos no se ejecutan manualmente, sino mediante automatizaciones.
+Este proyecto no es solo una colección de atajos, es un sistema modular.
 
-Ejemplo:
+Los atajos comparten información entre sí mediante:
+
+- 📁 Archivo de configuración (casa)  
+- 📍 Datos de ubicación  
+- 🔁 Lógica reutilizable  
+
+👉 Esto permite automatizaciones más inteligentes y conectadas
+
+---
+
+## 🔗 Automatizaciones
+
+Muchos atajos funcionan automáticamente mediante automatizaciones de iOS.
+
+Ejemplos:
 
 - 🔌 Nivel de batería → ejecuta un atajo  
 - 🚗 CarPlay → ejecuta otro atajo  
 
-👉 Cada atajo explica su automatización asociada
+👉 Cada atajo explica cómo configurar su automatización
 
 ---
 
-## 🧠 Filosofía del proyecto
+## 🛠️ Problemas comunes
 
-- 🔹 Atajos modulares  
-- 🔹 Reutilización de lógica  
-- 🔹 Configuración mínima  
-- 🔹 Sin datos personales hardcodeados  
+- ❌ No funciona → revisa permisos  
+- ❌ No se ejecuta → revisa automatización  
+- ❌ Ubicación incorrecta → vuelve a configurar casa  
+- ❌ Algo falla → revisa el README del atajo  
 
 ---
 
@@ -110,32 +150,6 @@ Ejemplo:
 - No se almacenan direcciones visibles  
 - No se comparten datos  
 - Todo se ejecuta en el dispositivo  
-
----
-
-## 🚀 Instalación rápida recomendada
-
-1. Ejecutar:
-   - 🏠 Configurar casa  
-
-2. Instalar:
-   - 🚗 Salida coche  
-   - 📍 Dónde he aparcado  
-
-3. Configurar automatización:
-   - CarPlay → desconectar  
-
----
-
-## ⚠️ Compatibilidad
-
-- Algunas automatizaciones pueden **no funcionar correctamente en versiones anteriores de iOS**
-- Especialmente aquellas relacionadas con:
-  - 📍 Ubicación  
-  - 🚗 CarPlay  
-  - 🔋 Automatizaciones de batería  
-
-👉 Si algo no funciona, lo primero es verificar la versión de iOS
 
 ---
 
