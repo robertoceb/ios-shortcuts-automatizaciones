@@ -1,5 +1,12 @@
 # 🚀 iOS Shortcuts & Automatizaciones
 
+![iOS](https://img.shields.io/badge/iOS-26.4.1-blue)
+![Shortcuts](https://img.shields.io/badge/App-Atajos-black)
+![Estado](https://img.shields.io/badge/Estado-Activo-success)
+![Automatizaciones](https://img.shields.io/badge/Tipo-Automatizaciones-orange)
+![Privacidad](https://img.shields.io/badge/Privacidad-100%25%20Local-blueviolet)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+
 Colección de atajos y automatizaciones para iPhone diseñadas para mejorar tu día a día de forma inteligente, automática y sin apps externas.
 
 ---
