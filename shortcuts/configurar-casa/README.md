@@ -48,8 +48,8 @@ La primera vez que ejecutes el atajo, iOS te pedirá guardar un archivo.
    - Selecciona **iCloud Drive**
    - Entra en la carpeta **Shortcuts**
 4. Verás que el archivo tiene como nombre tu dirección  
-5. ⚠️ **Cámbialo manualmente por casa**
-6. 6. Guarda el archivo  
+5. ⚠️ **Renombralo a casa**
+6. Guarda el archivo  
 
 ---
 
