@@ -20,7 +20,7 @@ Antes de usar algunos atajos, debes configurar tu ubicación de casa:
 ### 🏠 Configurar casa
 Guarda tu ubicación como referencia para otras automatizaciones.
 
-👉 📂 [Ver guía](./atajos/configurar-casa/README.md)
+👉 📂 [Ver guía](./shortcuts/configurar-casa/README.md)
 
 ---
 
@@ -28,13 +28,13 @@ Guarda tu ubicación como referencia para otras automatizaciones.
 
 ### 🔋 Batería
 
-- 🔋 **Baja batería**  
+- 🔋 **Batería baja**  
   Actúa cuando el nivel baja de cierto porcentaje  
-  👉 📂 [Ver guía](./atajos/baja-bateria/README.md)
+  👉 📂 [Ver guía](./shortcuts/bateria-baja/README.md)
 
 - 🔌 **Batería cargada**  
   Se ejecuta al superar un nivel de carga  
-  👉 📂 [Ver guía](./atajos/bateria-cargada/README.md)
+  👉 📂 [Ver guía](./shortcuts/bateria-cargada/README.md)
 
 ---
 
@@ -42,11 +42,11 @@ Guarda tu ubicación como referencia para otras automatizaciones.
 
 - 🚗 **Salida coche**  
   Detecta cuando sales del coche y ejecuta acciones inteligentes  
-  👉 📂 [Ver guía](./atajos/salida-coche/README.md)
+  👉 📂 [Ver guía](./shortcuts/salida-coche/README.md)
 
 - 📍 **Dónde he aparcado**  
   Guarda la ubicación de aparcamiento automáticamente  
-  👉 📂 [Ver guía](./atajos/donde-he-aparcado/README.md)
+  👉 📂 [Ver guía](./shortcuts/donde-he-aparcado/README.md)
 
 ---
 
@@ -54,11 +54,11 @@ Guarda tu ubicación como referencia para otras automatizaciones.
 
 - 🔄 **Actualizar apps**  
   Abre la App Store en la sección de actualizaciones  
-  👉 📂 [Ver guía](./atajos/actualizar-apps/README.md)
+  👉 📂 [Ver guía](./shortcuts/actualizar-apps/README.md)
 
 - 📄 **Extraer texto de imagen**  
   Obtiene texto desde una imagen  
-  👉 📂 [Ver guía](./atajos/extraer-texto/README.md)
+  👉 📂 [Ver guía](./shortcuts/extraer-texto/README.md)
 
 ---
 
