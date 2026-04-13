@@ -29,6 +29,7 @@ Cuando se desconecta CarPlay, el iPhone ejecuta el atajo automáticamente.
 4. Selecciona **CarPlay**
 5. Configura:
    - 👉 **Se desconecta**
+   - Desmarca 👉 **Se conecta**
 6. Pulsa **Siguiente**
 7. Añade acción:
    - 👉 **Ejecutar atajo**
