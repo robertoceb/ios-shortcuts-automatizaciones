@@ -10,7 +10,9 @@
 Automatiza tu iPhone de forma inteligente y sin apps externas.  
 Un sistema modular de atajos diseñado para ahorrar tiempo, reducir tareas repetitivas y mejorar tu experiencia diaria.
 
-![Vista general de atajos](./assets/img/shortcuts-home.png)
+<p align="center">
+  <img src="./assets/img/shortcuts-home.png" width="350"/>
+</p>
 
 ---
 
