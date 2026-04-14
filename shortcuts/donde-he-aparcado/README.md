@@ -63,11 +63,7 @@ Configura una automatización en iOS:
 
 ---
 
-## 📂 ¿Qué hace el atajo?
-
-<p align="center">
-  <img src="../../assets/img/atajo-donde-he-aparcado.png" width="350"/>
-</p>
+## 📂 ¿Qué hace internamente?
 
 El atajo:
 
@@ -83,10 +79,16 @@ El atajo:
 
 ## 📂 Resultado
 
-Se crea una nota en la carpeta: Parking
+Se crea una nota dentro de la app **Notas** con la información necesaria para localizar tu coche fácilmente.
 
+<p align="center">
+  <img src="../../assets/img/nota-parking.png" width="300"/>
+</p>
 
-Con la información necesaria para localizar tu coche fácilmente.
+👉 La nota incluirá:
+- 📅 Fecha  
+- 📍 Ubicación  
+- 🔗 Enlace a Mapas  
 
 ---
 
@@ -101,6 +103,8 @@ Con la información necesaria para localizar tu coche fácilmente.
 
 ## 💡 Notas
 
+- No siempre se crea una carpeta específica (depende de tu app Notas)  
+- Las notas se guardan en la ubicación por defecto configurada en iOS  
 - Funciona mejor con CarPlay  
 - Puede adaptarse a Bluetooth del coche  
 - Puedes modificar el formato de la nota según tus necesidades  
