@@ -6,6 +6,12 @@ Incluye asistencia por voz y navegación automática.
 
 ---
 
+<p align="center">
+  <img src="../../assets/img/inicio-conduccion-ia.png" width="300"/>
+</p>
+
+---
+
 ## 🧠 ¿Para qué sirve?
 
 Este atajo te permite:
@@ -63,6 +69,10 @@ Configura una automatización en iOS:
    - ❌ "Solicitar confirmación"  
 6. Guardar  
 
+<p align="center">
+  <img src="../../assets/img/inicio-conduccion-automatizacion.png" width="300"/>
+</p>
+
 ---
 
 ## 📂 ¿Qué hace internamente?
@@ -71,14 +81,29 @@ El atajo:
 
 1. Detecta que te conectas al coche  
 2. Comprueba el nivel de batería  
+
+<p align="center">
+  <img src="../../assets/img/inicio-conduccion-bateria.png" width="300"/>
+</p>
+
 3. Genera un mensaje por voz tipo asistente  
 4. Reproduce el mensaje  
+
+<p align="center">
+  <img src="../../assets/img/inicio-conduccion-ia.png" width="300"/>
+</p>
+
 5. Solicita un destino por voz  
 6. Interpreta la respuesta:
    - “no” → cancela  
    - “casa” → usa tu ubicación guardada  
    - otro destino → lo procesa automáticamente  
+
 7. Abre Google Maps con la ruta  
+
+<p align="center">
+  <img src="../../assets/img/inicio-conduccion-maps.png" width="300"/>
+</p>
 
 ---
 
