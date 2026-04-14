@@ -137,6 +137,10 @@ Los atajos comparten información entre sí mediante:
 
 ## 🔗 Automatizaciones
 
+<p align="center">
+  <img src="./assets/img/automatizaciones.png" width="350"/>
+</p>
+
 Muchos atajos funcionan automáticamente mediante automatizaciones de iOS.
 
 Ejemplos:
