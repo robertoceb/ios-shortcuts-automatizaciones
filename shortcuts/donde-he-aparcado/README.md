@@ -63,7 +63,11 @@ Configura una automatización en iOS:
 
 ---
 
-## 📂 ¿Qué hace internamente?
+## 📂 ¿Qué hace el atajo?
+
+<p align="center">
+  <img src="../../assets/img/atajo-donde-he-aparcado.png" width="350"/>
+</p>
 
 El atajo:
 
@@ -79,8 +83,7 @@ El atajo:
 
 ## 📂 Resultado
 
-Se crea una nota en la carpeta:
-Parking
+Se crea una nota en la carpeta: Parking
 
 
 Con la información necesaria para localizar tu coche fácilmente.
