@@ -44,6 +44,14 @@ Puedes utilizar este atajo de varias formas:
 
 ---
 
+## 🖼️ Resultado
+
+![Actualizar apps - resultado](./img/actualizar-apps.png)
+
+👉 Acceso directo a las apps pendientes de actualización.
+
+---
+
 ## 🤖 Automatización (opcional)
 
 Puedes automatizar su ejecución en situaciones como:
@@ -64,11 +72,15 @@ Configuración:
 
 ## 📂 ¿Qué hace internamente?
 
+![Actualizar apps - funcionamiento](./img/anclar-inicio.png)
+
 El atajo:
 
 1. Abre la App Store  
 2. Redirige a la sección de actualizaciones  
 3. Muestra las apps pendientes de actualizar  
+
+👉 Utiliza un enlace interno de iOS (`itms-apps://`) para acceder directamente.
 
 ---
 
@@ -83,3 +95,4 @@ El atajo:
 
 - iOS no permite actualizar apps automáticamente mediante atajos  
 - Este atajo sirve como acceso rápido, no como automatización completa  
+- Funciona mediante URL interna del sistema  
