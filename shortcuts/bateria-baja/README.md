@@ -44,6 +44,10 @@ Funciona automáticamente mediante una automatización configurada por el usuari
 
 Configura una automatización en iOS:
 
+<p align="center">
+  <img src="../../assets/img/automatizacion-bateria-baja.png" width="300"/>
+</p>
+
 1. Abre **Atajos → Automatización**  
 2. Pulsa **Crear automatización personal**  
 3. Selecciona **Nivel de batería**  
@@ -52,11 +56,26 @@ Configura una automatización en iOS:
 5. Pulsa **Siguiente**  
 6. Añade acción:
    - Ejecutar atajo  
-   - Selecciona: **Modo ahorro**  
+   - Selecciona: **Baja batería**  
 7. Pulsa **Siguiente**  
 8. Desactiva:
    - ❌ "Solicitar confirmación"  
 9. Guardar  
+
+---
+
+## ⚙️ ¿Qué hace el atajo?
+
+<p align="center">
+  <img src="../../assets/img/atajo-bateria baja.png" width="300"/>
+</p>
+
+El atajo ejecuta automáticamente acciones de ahorro como:
+
+- ⚡ Activar modo de bajo consumo  
+- 🔅 Reducir brillo (ejemplo: 50%)  
+
+👉 Puedes personalizar estas acciones según tus necesidades.
 
 ---
 
@@ -80,11 +99,13 @@ El sistema funciona en dos partes:
 
 ## 💡 Notas
 
-- Puedes personalizar el atajo según tus necesidades  
-- Ejemplos de acciones:
-  - ⚡ Activar modo de bajo consumo  
-  - 🔅 Reducir brillo  
-  - 🔕 Activar modo No molestar  
-  - 📶 Desactivar conexiones  
+- Puedes personalizar completamente el atajo  
+- Añade más acciones según tu uso diario  
+
+Ejemplos:
+
+- 🔕 Activar modo No molestar  
+- 📶 Desactivar conexiones  
+- 🌙 Activar modo oscuro  
 
 👉 Este sistema es totalmente adaptable a tu uso
