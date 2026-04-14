@@ -67,7 +67,7 @@ Configura una automatización en iOS:
 ## ⚙️ ¿Qué hace el atajo?
 
 <p align="center">
-  <img src="../../assets/img/atajo-bateria baja.png" width="300"/>
+  <img src="../../assets/img/atajo-bateria-baja.png" width="300"/>
 </p>
 
 El atajo ejecuta automáticamente acciones de ahorro como:
