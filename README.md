@@ -7,30 +7,43 @@
 ![Privacidad](https://img.shields.io/badge/Privacidad-100%25%20Local-blueviolet)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
 
-Automatiza tu iPhone de forma inteligente y sin apps externas.  
-Un sistema modular de atajos diseñado para ahorrar tiempo, reducir tareas repetitivas y mejorar tu experiencia diaria.
+---
 
 <p align="center">
   <img src="./assets/img/shortcuts-home.png" width="350"/>
 </p>
 
+<h1 align="center">Automatiza tu iPhone sin apps externas</h1>
+
+<p align="center">
+Sistema modular de atajos diseñado para ahorrar tiempo, eliminar tareas repetitivas y mejorar tu día a día.
+</p>
+
 ---
 
-## 🔥 ¿Qué te aporta este repo?
+## ⚡ Lo que puedes hacer
 
-- ⚡ Automatiza tareas sin tocar el móvil  
-- 🔁 Reduce acciones repetitivas  
-- 🧠 Sistema modular reutilizable  
-- 🔐 100% local y privado (sin servicios externos)  
-- 🚀 Fácil de instalar y ampliar  
+- ⚡ Automatizar tareas sin tocar el móvil  
+- 🔁 Reducir acciones repetitivas  
+- 🧠 Crear un sistema modular reutilizable  
+- 🔐 Mantener todo 100% local y privado  
+- 🚀 Escalar automatizaciones fácilmente  
+
+---
+
+## ⚙️ Cómo funciona
+
+1. Configuras tu entorno (casa)  
+2. Activas automatizaciones (coche, batería…)  
+3. El sistema actúa automáticamente  
+
+👉 Sin intervención manual en la mayoría de casos
 
 ---
 
 ## ⚡ Prueba rápida (1 minuto)
 
 ¿Quieres ver cómo funciona sin complicarte?
-
-👉 Empieza con este atajo:
 
 📍 **Dónde he aparcado**  
 Guarda automáticamente la ubicación de tu coche al bajarte.
@@ -39,30 +52,9 @@ Guarda automáticamente la ubicación de tu coche al bajarte.
 
 ---
 
-## ⚠️ Requisitos del sistema
+## 🧱 Orden recomendado (IMPORTANTE)
 
-Estos atajos han sido diseñados y probados en:
-
-- 📱 iOS 26.4.1  
-- 🔁 App Atajos actualizada  
-
-👉 Se recomienda tener el sistema actualizado a esta versión o superior
-
----
-
-## 🔄 Antes de empezar (IMPORTANTE)
-
-Antes de usar cualquier automatización:
-
-1. Ve a **Ajustes → General → Actualización de software**  
-2. Asegúrate de tener la última versión de iOS  
-3. Comprueba que la app **Atajos** está actualizada  
-
----
-
-## 🧱 Orden recomendado (OBLIGATORIO)
-
-Para que todo funcione correctamente, sigue este orden:
+Para que todo funcione correctamente:
 
 1. 🏠 **Configurar casa**  
 2. 🚗 Automatizaciones de coche  
@@ -83,7 +75,7 @@ Guarda tu ubicación como referencia para el resto del sistema.
 
 ---
 
-## 📦 Sistema de automatización
+## 📦 Automatizaciones disponibles
 
 ### 🚗 Coche
 
@@ -121,34 +113,39 @@ Guarda tu ubicación como referencia para el resto del sistema.
 
 ---
 
-## 🧠 Cómo funciona el sistema
+## 🧠 Arquitectura del sistema
 
-Este proyecto no es solo una colección de atajos, es un sistema modular.
+Este proyecto no es solo una colección de atajos.
 
-Los atajos comparten información entre sí mediante:
+Es un sistema modular donde los atajos comparten información:
 
 - 📁 Archivo de configuración (casa)  
 - 📍 Datos de ubicación  
 - 🔁 Lógica reutilizable  
 
-👉 Esto permite automatizaciones más inteligentes y conectadas
+👉 Permite automatizaciones más inteligentes y conectadas
 
 ---
 
-## 🔗 Automatizaciones
+## 🔗 Automatizaciones en iOS
 
 <p align="center">
   <img src="./assets/img/automatizaciones.png" width="350"/>
 </p>
 
-Muchos atajos funcionan automáticamente mediante automatizaciones de iOS.
-
-Ejemplos:
+Muchos atajos funcionan automáticamente mediante automatizaciones:
 
 - 🔌 Nivel de batería → ejecuta un atajo  
 - 🚗 CarPlay → ejecuta otro atajo  
 
-👉 Cada atajo explica cómo configurar su automatización
+👉 Cada atajo incluye su configuración
+
+---
+
+## ⚠️ Requisitos
+
+- 📱 iOS 26.4.1 o superior  
+- 📲 App Atajos actualizada  
 
 ---
 
@@ -166,14 +163,6 @@ Ejemplos:
 - No se almacenan direcciones visibles  
 - No se comparten datos  
 - Todo se ejecuta en el dispositivo  
-
----
-
-## 💡 Notas
-
-- Algunos atajos dependen de otros  
-- Sigue siempre el orden recomendado  
-- Revisa cada README individual  
 
 ---
 
