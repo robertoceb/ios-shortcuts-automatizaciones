@@ -80,7 +80,7 @@ Configura una automatización en iOS:
 Este es el flujo interno del sistema:
 
 <p align="center">
-  <img src="../../assets/img/atajo-salida.png" width="300"/>
+  <img src="../../assets/img/atajo-donde-he-aparcado.png" width="300"/>
 </p>
 
 ---
