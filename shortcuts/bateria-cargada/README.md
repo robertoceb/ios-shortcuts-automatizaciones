@@ -1,6 +1,6 @@
 # 🔌 Restaurar estado al cargar batería
 
-Ejecuta automáticamente un atajo cuando conectas el iPhone al cargador para restaurar el estado normal del dispositivo.
+Ejecuta automáticamente un atajo cuando el dispositivo comienza a cargarse para restaurar el estado normal del sistema.
 
 ---
 
@@ -12,7 +12,7 @@ Este sistema te permite:
 - Automatizar ajustes al empezar a cargar  
 - Mejorar la experiencia sin intervención manual  
 
-Ideal para complementar automatizaciones de batería baja.
+👉 Ideal para complementar **Modo batería baja automático**
 
 ---
 
@@ -38,13 +38,17 @@ Ideal para complementar automatizaciones de batería baja.
 
 Este sistema no se ejecuta manualmente.
 
-Funciona automáticamente cuando conectas el dispositivo al cargador.
+Funciona automáticamente cuando el dispositivo comienza a cargarse.
 
 ---
 
 ## 🤖 Automatización
 
 Configura una automatización en iOS:
+
+<p align="center">
+  <img src="../../assets/img/automatizacion-bateria-alta.png" width="300"/>
+</p>
 
 1. Abre **Atajos → Automatización**  
 2. Pulsa **Crear automatización personal**  
@@ -54,7 +58,7 @@ Configura una automatización en iOS:
 5. Pulsa **Siguiente**  
 6. Añade acción:
    - Ejecutar atajo  
-   - Selecciona: **Modo normal**  
+   - Selecciona: **Batería cargada**  
 7. Pulsa **Siguiente**  
 8. Desactiva:
    - ❌ "Solicitar confirmación"  
@@ -62,11 +66,26 @@ Configura una automatización en iOS:
 
 ---
 
+## ⚙️ ¿Qué hace el atajo?
+
+<p align="center">
+  <img src="../../assets/img/atajo-bateria-alta.png" width="300"/>
+</p>
+
+El atajo restaura automáticamente configuraciones normales como:
+
+- ⚡ Desactivar modo de bajo consumo  
+- 🔆 Ajustar brillo (ejemplo: 50%)  
+
+👉 Puedes personalizar estas acciones según tu uso.
+
+---
+
 ## 📂 ¿Qué hace internamente?
 
 El sistema funciona en dos partes:
 
-1. iOS detecta que el dispositivo se conecta al cargador  
+1. iOS detecta que el dispositivo comienza a cargarse  
 2. Se ejecuta el atajo automáticamente  
 3. El atajo restaura configuraciones normales  
 
@@ -82,12 +101,16 @@ El sistema funciona en dos partes:
 
 ## 💡 Notas
 
-- Puedes personalizar el atajo según tus necesidades  
-- Ejemplos de acciones:
-  - 🔆 Restaurar brillo  
-  - 🔔 Desactivar modo No molestar  
-  - 📶 Activar WiFi / Bluetooth  
-  - ⚡ Desactivar modo de bajo consumo  
+- Puedes personalizar completamente el atajo  
+- Añade más acciones según tus necesidades  
+
+Ejemplos:
+
+- 🔔 Desactivar modo No molestar  
+- 📶 Activar WiFi / Bluetooth  
+- 🌞 Ajustar brillo automáticamente  
+
+👉 Este atajo complementa perfectamente el modo de batería baja
 
 ---
 
@@ -95,7 +118,6 @@ El sistema funciona en dos partes:
 
 Este atajo complementa:
 
-- 🔋 **Modo batería baja automático**  
-- 🔌 **Restaurar estado al cargar batería**  
+- 🔋 **Modo batería baja automático**
 
 👉 Juntos permiten automatizar completamente el comportamiento de la batería
