@@ -66,9 +66,31 @@ La primera vez que ejecutes el atajo, iOS te pedirá guardar un archivo.
 3. Cuando aparezca el selector:
    - Selecciona **iCloud Drive**  
    - Entra en la carpeta **Shortcuts**  
+
+<p align="center">
+  <img src="../../assets/img/icloud-drive.png" width="350"/>
+</p>
+
 4. iOS propondrá un nombre automático (tu dirección)  
-5. ⚠️ Cámbialo manualmente por: casa
+5. ⚠️ Cámbialo manualmente por: casa  
 6. Guarda el archivo  
+
+---
+
+## 📂 Ubicación correcta del archivo
+
+El archivo debe quedar exactamente en:
+
+<p align="center">
+  <img src="../../assets/img/archivo-casa.png" width="350"/>
+</p>
+
+1. Abre la app **Archivos**  
+2. Ve a:
+   - iCloud Drive → Shortcuts  
+3. Comprueba que existe un archivo llamado: `casa`  
+
+👉 Si es así, la configuración es correcta ✅
 
 ---
 
@@ -80,20 +102,6 @@ El atajo:
 2. Genera un archivo con esa información  
 3. Guarda ese archivo en iCloud Drive  
 4. Ese archivo será utilizado por otros atajos  
-
----
-
-## 🧪 Verificación
-
-Para comprobar que todo está correcto:
-
-1. Abre la app **Archivos**  
-2. Ve a:
-- iCloud Drive → Shortcuts  
-3. Comprueba que existe un archivo llamado: casa
-
-
-👉 Si es así, la configuración es correcta
 
 ---
 
@@ -111,3 +119,4 @@ Para comprobar que todo está correcto:
 - Solo necesitas ejecutarlo una vez  
 - Puedes volver a ejecutarlo si cambias de casa  
 - Sobrescribe el archivo existente sin problema  
+
