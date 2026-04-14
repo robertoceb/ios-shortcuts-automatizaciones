@@ -41,9 +41,9 @@ Este atajo te permite:
 
 ## ▶️ Uso
 
-Este sistema no se ejecuta manualmente.
+Este atajo no se ejecuta manualmente.
 
-Funciona automáticamente cuando se configura su automatización.
+👉 Se lanza automáticamente mediante una automatización de iOS.
 
 ---
 
@@ -62,6 +62,26 @@ Configura una automatización en iOS:
 5. Desactiva:
    - ❌ "Solicitar confirmación"  
 6. Guardar  
+
+💡 Recomendado: activa "Ejecutar inmediatamente" para evitar confirmaciones.
+
+---
+
+### 📱 Ejemplo de automatización
+
+<p align="center">
+  <img src="../../assets/img/automatizacion-carplay-desconecta.png" width="300"/>
+</p>
+
+---
+
+## 🧠 Lógica del atajo
+
+Este es el flujo interno del sistema:
+
+<p align="center">
+  <img src="../../assets/img/atajo-salida.png" width="300"/>
+</p>
 
 ---
 
