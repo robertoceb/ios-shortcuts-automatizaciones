@@ -46,7 +46,9 @@ Puedes utilizar este atajo de varias formas:
 
 ## 🖼️ Resultado
 
-![Actualizar apps - resultado](./img/actualizar-apps.png)
+<p align="center">
+  <img src="../../assets/img/actualizar-apps.png" width="300"/>
+</p>
 
 👉 Acceso directo a las apps pendientes de actualización.
 
@@ -72,7 +74,9 @@ Configuración:
 
 ## 📂 ¿Qué hace internamente?
 
-![Actualizar apps - funcionamiento](./img/anclar-inicio.png)
+<p align="center">
+  <img src="../../assets/img/añadir-inicio.png" width="300"/>
+</p>
 
 El atajo:
 
