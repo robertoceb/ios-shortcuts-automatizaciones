@@ -37,7 +37,7 @@ Ideal para asistentes, notificaciones y automatizaciones por voz.
 ## 📲 Instalación
 
 1. Descarga el atajo:  
-   🔗 https://www.icloud.com/shortcuts/2b97d1ff3b7a4e76be6e98baf7992a82
+   🔗 https://www.icloud.com/shortcuts/f84bf307f14e4c6ba6b59deddf7e1e94
 
 2. Ábrelo en la app **Atajos**
 
