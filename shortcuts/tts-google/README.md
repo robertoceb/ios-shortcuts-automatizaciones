@@ -5,7 +5,7 @@ Convierte texto en voz natural usando Google Cloud Text-to-Speech integrado en A
 ---
 
 <p align="center">
-  <img src="../../assets/img/tts-google2.png" width="300"/>
+  <img src="../../assets/img/tts-google.png" width="300"/>
 </p>
 
 ---
