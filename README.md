@@ -107,6 +107,10 @@ Guarda tu ubicación como referencia para el resto del sistema.
 
 ### ⚙️ Utilidades
 
+- 🔊 **TTS Google (voz natural)**  
+  Convierte cualquier texto en voz real usando Google Cloud Text-to-Speech  
+  👉 📂 [Ver guía](./shortcuts/tts-google/README.md)
+
 - 🔄 **Actualizar apps**  
   Abre la App Store en la sección de actualizaciones  
   👉 📂 [Ver guía](./shortcuts/actualizar-apps/README.md)
