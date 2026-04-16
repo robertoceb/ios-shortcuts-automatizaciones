@@ -5,7 +5,7 @@ Asistente de conducción inteligente que genera mensajes dinámicos y los reprod
 ---
 
 <p align="center">
-  <img src="../../assets/img/inicio-conduccion-ia.png" width="300"/>
+  <img src="../../assets/img/inicio-conduccion-ia2.png" width="300"/>
 </p>
 
 ---
