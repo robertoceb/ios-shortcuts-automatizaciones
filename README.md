@@ -83,9 +83,13 @@ Guarda tu ubicación como referencia para el resto del sistema.
   Detecta cuando sales del coche y ejecuta acciones inteligentes  
   👉 📂 [Ver guía](./shortcuts/salida-coche/README.md)
 
-- 🚀 **Inicio conducción**  
-  Asistente de conducción con mensajes dinámicos y voz natural al iniciar la marcha  
+- 🚗 **Inicio conducción (básico)**  
+  Automatización simple al iniciar la marcha  
   👉 📂 [Ver guía](./shortcuts/inicio-conduccion/README.md)
+
+- 🚀 **Inicio conducción V2 (IA + Voz)**  
+  Asistente de conducción con generación de mensajes y voz natural  
+  👉 📂 [Ver guía](./shortcuts/inicio-conduccion-v2/README.md)
 
 - 📍 **Dónde he aparcado**  
   Guarda automáticamente la ubicación de aparcamiento  
